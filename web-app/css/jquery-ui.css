@@ -1,0 +1,194 @@
+.ui-widget {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.1em;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1em;
+}
+.ui-widget-content {
+    background: /*url("../images/?new=eeeeee&w=1&h=100&f=png&q=100&fltr[]=over|textures/06_inset_hard.png|0|0|100")*/ repeat-x scroll 50% bottom #EEEEEE;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+}
+.ui-widget-content a {
+    color: #222222;
+}
+.ui-widget-header {
+	background: url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;    
+    border: 1px solid #4297d7;
+    color: #E69700;
+    font-weight: bold;
+}
+.ui-widget-header a {
+    color: #E69700;
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+    /*background: url("../images/?new=1484e6&w=40&h=40&f=png&q=100&fltr[]=over|textures/08_diagonals_thick.png|0|0|22") repeat scroll 50% 50% #1484E6;*/
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: bold;
+    outline: medium none;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #FFFFFF;
+    outline: medium none;
+    text-decoration: none;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus {
+    background: url("../images/?new=2293f7&w=40&h=40&f=png&q=100&fltr[]=over|textures/08_diagonals_thick.png|0|0|26") repeat scroll 50% 50% #2293F7;
+    border: 1px solid #2293F7;
+    color: #FFFFFF;
+    font-weight: bold;
+    outline: medium none;
+}
+.ui-state-hover a, .ui-state-hover a:hover {
+    color: #FFFFFF;
+    outline: medium none;
+    text-decoration: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active {
+    background: url("../images/?new=e69700&w=40&h=40&f=png&q=100&fltr[]=over|textures/08_diagonals_thick.png|0|0|20") repeat scroll 50% 50% #E69700;
+    border: 1px solid #E69700;
+    color: #FFFFFF;
+    font-weight: bold;
+    outline: medium none;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #FFFFFF;
+    outline: medium none;
+    text-decoration: none;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+    background: url("../images/?new=c5ddfc&w=40&h=40&f=png&q=100&fltr[]=over|textures/07_diagonals_small.png|0|0|25") repeat scroll 50% 50% #C5DDFC;
+    border: 1px solid #FFFFFF;
+    color: #333333;
+}
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a {
+    color: #333333;
+}
+.ui-state-error, .ui-widget-content .ui-state-error {
+    background: url("../images/?new=e69700&w=40&h=40&f=png&q=100&fltr[]=over|textures/08_diagonals_thick.png|0|0|20") repeat scroll 50% 50% #E69700;
+    border: 1px solid #E69700;
+    color: #FFFFFF;
+}
+.ui-state-error a, .ui-widget-content .ui-state-error a {
+    color: #FFFFFF;
+}
+.ui-state-error-text, .ui-widget-content .ui-state-error-text {
+    color: #FFFFFF;
+}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled {
+    background-image: none;
+    opacity: 0.35;
+}
+.ui-priority-primary, .ui-widget-content .ui-priority-primary {
+    font-weight: bold;
+}
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary {
+    font-weight: normal;
+    opacity: 0.7;
+}
+.ui-icon {
+    background-image: url("../images/?new=0a82eb&w=256&h=240&f=png&fltr[]=rcd|256&fltr[]=mask|icons/icons.png");
+    height: 16px;
+    width: 16px;
+}
+.ui-widget-content .ui-icon {
+    background-image: url("../images/?new=0a82eb&w=256&h=240&f=png&fltr[]=rcd|256&fltr[]=mask|icons/icons.png");
+}
+.ui-widget-header .ui-icon {
+    background-image: url("../images/?new=5fa5e3&w=256&h=240&f=png&fltr[]=rcd|256&fltr[]=mask|icons/icons.png");
+}
+.ui-state-default .ui-icon {
+    background-image: url("../images/?new=fcdd4a&w=256&h=240&f=png&fltr[]=rcd|256&fltr[]=mask|icons/icons.png");
+}
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+    background-image: url("../images/?new=ffffff&w=256&h=240&f=png&fltr[]=rcd|256&fltr[]=mask|icons/icons.png");
+}
+.ui-state-active .ui-icon {
+    background-image: url("../images/?new=ffffff&w=256&h=240&f=png&fltr[]=rcd|256&fltr[]=mask|icons/icons.png");
+}
+.ui-state-highlight .ui-icon {
+    background-image: url("../images/?new=0b54d5&w=256&h=240&f=png&fltr[]=rcd|256&fltr[]=mask|icons/icons.png");
+}
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
+    background-image: url("../images/?new=ffffff&w=256&h=240&f=png&fltr[]=rcd|256&fltr[]=mask|icons/icons.png");
+}
+.ui-corner-all {
+    border-radius: 3px 3px 3px 3px;
+}
+.ui-widget-overlay {
+    background: url("../images/?new=e6b900&w=40&h=100&f=png&q=100&fltr[]=over|textures/01_flat.png|0|0|0") repeat-x scroll 50% 50% #E6B900;
+    opacity: 0.3;
+}
+.ui-widget-shadow {
+    background: url("../images/?new=e69700&w=40&h=100&f=png&q=100&fltr[]=over|textures/01_flat.png|0|0|0") repeat-x scroll 50% 50% #E69700;
+    border-radius: 3px 3px 3px 3px;
+    margin: 6px 0 0 6px;
+    opacity: 0.2;
+    padding: 0;
+}
+
+.ui-button { display: inline-block; position: relative; padding: 0; margin-right: .1em; cursor: pointer; text-align: center; zoom: 1; overflow: visible; } /* the overflow property removes extra width in IE */
+.ui-button, .ui-button:link, .ui-button:visited, .ui-button:hover, .ui-button:active { text-decoration: none; }
+.ui-button-icon-only { width: 2.2em; } /* to make room for the icon, a width needs to be set here */
+button.ui-button-icon-only { width: 2.4em; } /* button elements seem to need a little more width */
+.ui-button-icons-only { width: 3.4em; } 
+button.ui-button-icons-only { width: 3.7em; } 
+
+/*button text element */
+.ui-button .ui-button-text { display: block; line-height: 1.4;  }
+.ui-button-text-only .ui-button-text { padding: .4em 1em; }
+.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
+.ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
+.ui-button-text-icon-secondary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 2.1em .4em 1em; }
+.ui-button-text-icons .ui-button-text { padding-left: 2.1em; padding-right: 2.1em; }
+/* no icon support for input elements, provide padding by default */
+input.ui-button { padding: .4em 1em; }
+
+/*button icon element(s) */
+.ui-button-icon-only .ui-icon, .ui-button-text-icon-primary .ui-icon, .ui-button-text-icon-secondary .ui-icon, .ui-button-text-icons .ui-icon, .ui-button-icons-only .ui-icon { position: absolute; top: 50%; margin-top: -8px; }
+.ui-button-icon-only .ui-icon { left: 50%; margin-left: -8px; }
+.ui-button-text-icon-primary .ui-button-icon-primary, .ui-button-text-icons .ui-button-icon-primary, .ui-button-icons-only .ui-button-icon-primary { left: .5em; }
+.ui-button-text-icon-secondary .ui-button-icon-secondary, .ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+.ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+
+/*button sets*/
+.ui-buttonset { margin-right: 7px; }
+.ui-buttonset .ui-button { margin-left: 0; margin-right: -.3em; }
+
+/* workarounds */
+button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra padding in Firefox */
+
+.ui-datepicker { width: 12em; padding: .2em .2em 0; display: none; }
+.ui-datepicker .ui-datepicker-header { position:relative; padding:.2em 0; }
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position:absolute; top: 2px; width: 1.8em; height: 1.8em; }
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+.ui-datepicker .ui-datepicker-prev { left:2px; }
+.ui-datepicker .ui-datepicker-next { right:2px; }
+.ui-datepicker .ui-datepicker-prev-hover { left:1px; }
+.ui-datepicker .ui-datepicker-next-hover { right:1px; }
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+.ui-datepicker .ui-datepicker-title { margin: 0 2.3em; line-height: 1.8em; text-align: center; }
+.ui-datepicker .ui-datepicker-title select { font-size:1em; margin:1px 0; }
+.ui-datepicker select.ui-datepicker-month-year {width: 100%;}
+.ui-datepicker select.ui-datepicker-month, 
+.ui-datepicker select.ui-datepicker-year { width: 49%;}
+.ui-datepicker table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
+.ui-datepicker th { padding: .7em .3em; text-align: center; font-weight: bold; border: 0;  }
+.ui-datepicker td { border: 0; padding: 1px; }
+.ui-datepicker td span, .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
+.ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+.ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+.ui-datepicker-cover {
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 200px; /*must have*/
+    height: 200px; /*must have*/
+}

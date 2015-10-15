@@ -1,0 +1,167 @@
+#------------------ DATASOURCE -----------------------------------------
+sphinx.server=84.52.127.229
+sphinx.port=3307
+sphinx.limit=2500
+
+dataSource.url=jdbc:mysql://127.0.0.1:3306/ktoblizko?autoreconnect=true
+#84.52.127.229
+dataSource.driverClassName = com.mysql.jdbc.Driver 
+dataSource.username=dba
+dataSource.password=d7vitcnm
+#dataSource.logginSql=true
+#dataSource.logSql=true
+
+hibernate.cache.use_second_level_cache=true
+hibernate.cache.use_query_cache=true
+hibernate.cache.provider_class=net.sf.ehcache.hibernate.EhCacheProvider
+#hibernate.cache.provider_class = com.googlecode.hibernate.memcached.MemcachedCacheProvider
+#hibernate.memcached.servers = 84.52.127.229:11211
+#hibernate.memcached.user=memcached
+
+#------------------- LOGGER --------------------------------------------
+logger.file = /var/log/yellcat/ktoblizko.log
+logger.stack = /var/log/yellcat/ktoblizko_stacktrace.log
+
+#logger.hibernatelevel=org.hibernate.SQL
+#org.hibernate
+#org.codehaus.groovy.grails.orm.hibernate
+#org.hibernate.SQL
+
+#-------------------------------------------------------------------------
+grails.mail.host = smtp.gmail.com
+grails.mail.port = 465
+grails.mail.username = info@ktoblizko.ru
+grails.mail.password = info888kb
+grails.mail.default.from=info@ktoblizko.ru
+
+#grails.mail.host = smtp.gmail.com
+#grails.mail.port = 465
+#grails.mail.username = testmetmp@gmail.com
+#grails.mail.password = addaddadd
+#grails.mail.default.from=registration@arenda.ru
+#-------------------------------------------------------------------------
+user.timelive=10  #108000
+#
+user.remembertime=2592000
+user.registrationtimelive=10  #172800 
+# minimal acceptable length of password
+user.passwordlength=5
+
+#capcha fail block in minuts
+ip_capcha_fail_block=30
+ip_capcha_fail_max=10
+#spy job period in miliseconds
+spy_timeout=300000
+
+grails.serverURL = http://localhost:8080
+grails.serverApp=KB
+#is develop
+isdev=1
+# Количество неудачных попыток входа, при котором происходит блокировка
+admin.unsuccess_log_limit = 5
+
+# Количество неудачных попыток входа за неделю, при превышении которого
+# их количество отображается в профиле
+admin.unsuccess_log_showlimit = 5
+
+user_max_enter_fail=10
+
+user.internal.url=http://ktoblizko.ru/User/
+
+#These two values need to be grabbed from facebook when you create your application there.
+#https://developers.facebook.com/apps
+facebook.APIKey = 174592895987255
+facebook.SecretKey = 39b1093d1a4672c6154a946ca9ed757a
+
+#twitter.APIKey=7Kh0dwrc4xDMOwNSa5jYXg
+#https://dev.twitter.com/apps
+#127.0.0.1:
+#twitter.APIKey=ArVTKtIpEGLJbda1ygN6mQ
+twitter.APIKey=	cjqxtKzAUySiUyJkgFtw
+
+#vk.APIKey=2639978
+vk.APIKey=2902922
+vk.SecretKey=65C958zJybO02lq1SVr9
+
+yandex.mapkey = ANFVH0wBAAAA0MeMKgIAOxHiedysUBZJZIdf0SkC9fGEWA8AAAAAAAAAAACUPec1mNW6uoXKTd5481iwvZ1EVQ==
+pathtophoto=C:\\img1
+
+#image
+timelifepic=900
+pic.clear.timeout=900000
+#photo >>
+pathtophoto=C:\\img1
+# path for saving images
+urlphoto=http://imgea.trace.ru/imgea/
+urluserphoto=http://imgea.trace.ru/imgea/user/
+photo.weight=2097152
+photo.image.size=639
+photo.thumb.size=100	
+photo.image.height=426
+photo.thumb.height=74
+userphoto.image.size=200
+userphoto.thumb.size=70
+userphoto.image.height=200
+userphoto.thumb.height=70
+userphoto.smallthumb.size=30
+userphoto.smallthumb.height=30
+#photo<<
+
+search.listing.max=7
+search.map.max=100
+
+photomultiupload.max = 4
+
+linkname.prefix = ktoblizko_
+
+largetext.limit = 5000
+smalltext.limit = 220
+
+grails.mailServerURL = http://localhost:8080
+#SMS>>
+SMSgate.apikey = XXXXXXXXXXXXYYYYYYYYYYYYZZZZZZZZXXXXXXXXXXXXYYYYYYYYYYYYZZZZZZZZ
+SMSgate.from = ktoblizko
+SMSgate.smsDelay = 3
+#SMS<<
+
+slider.age_max=60
+slider.age_min=18
+slider.age=2
+
+# Максимальное кол-во одинаковых ip за день
+guestbook.ip_max=10
+
+photomultiupload.max = 4
+
+linkname.prefix = ktoblizko_
+
+updateUserAge.cron = 0 0 0 * * ?
+
+coordOffset.city = 2000
+coordOffset.metro = 1000
+
+min_user_age = 18
+max_user_age = 60
+
+#onlineStatusJob - temporary not needed
+#user.onlinestatusdrop.timeout = 900000
+#user.onlinestatusdrop.timelife = 900
+#user.onlinestatusdrop.notofflinetime = 3600
+
+#chat refresh delay>>
+chat_refresh.delay = 5000
+get_new_message.delay = 5000
+#chat refresh delay<<
+
+#mainpage tender photos count
+mainpage.tenderphotos.max = 10
+#tenderpage tender photos count
+tenders.tenderphotos.max = 20
+
+#minimum rating value for popular users
+popular.minrating = 1
+#inputdate greater than (today - this param) for newest users
+newest.daysdiff = 140
+
+#koeff using in computing tendmember overall rating
+tendmember.ratingcoeff = 50
